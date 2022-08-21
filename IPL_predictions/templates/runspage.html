@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+        <style>
+            .scace {
+                margin: 15px;
+            }
+        </style>
+        <body>
+            <div align=justify>
+            <a class= "scace" href="/tosdic">predict toss decision</a> 
+            <a class= "scace" href="/winner">predict winner</a> 
+            <a class= "scace" href="/run">predict inning runs</a> 
+            <a class= "scace" href="/tosswiner">predict toss winner </a> 
+            </div>
+        <h1>total runs {{ans}}</h1>
+        <form action="run" method="post">
+            {% csrf_token %}
+            {{ a }}
+            <input type="submit" value="Submit">
+        </form>
+        'ACA-VDCA Stadium, Visakhapatnam': 0,<br>
+ 'Arun Jaitley Stadium, Delhi': 1,<br>
+ 'Barabati Stadium, Cuttack': 2,<br>
+ 'Brabourne Stadium, Mumbai': 3,<br>
+ 'Buffalo Park, East London': 4,<br>
+ 'Chhattisgarh International Cricket Stadium, Raipur': 5,<br>
+ 'DY Patil Stadium, Mumbai': 6,<br>
+ 'DY Patil Stadium, Navi Mumbai': 7,<br>
+ 'De Beers Diamond Oval, Kimberley': 8,<br>
+ 'Dubai International Cricket Stadium': 9,<br>
+ 'Dubai International Cricket Stadium, Dubai': 10,<br>
+ 'Eden Gardens, Kolkata': 11,<br>
+ 'Feroz Shah Kotla, Delhi': 12,<br>
+ 'Green Park Stadium, Kanpur': 13,<br>
+ 'HPCA Cricket Stadium, Dharamsala': 14,<br>
+ 'HPCA Stadium, Dharamsala': 15,<br>
+ 'Holkar Cricket Stadium, Indore': 16,<br>
+ 'JSCA International Cricket Stadium, Ranchi': 17,<br>
+ 'Jawaharlal Nehru Stadium, Kochi': 18,<br>
+ 'Kingsmead, Durban': 19,<br>
+ 'M. A Chidambaram Stadium, Chennai': 20,<br>
+ 'M. A. Chidambaram Stadium, Chennai': 21,<br>
+ 'M. Chinnaswamy Stadium, Bangalore': 22,<br>
+ 'MCA International Stadium, Pune': 23,<br>
+ 'MCA Stadium, Pune': 24,<br>
+ 'Maharashtra Cricket Association Stadium, Pune': 25,<br>
+ 'Narendra Modi Stadium, Ahmedabad': 26,<br>
+ 'New Wanderers Stadium, Johannesburg': 27,<br>
+ 'Newlands, Cape Town': 28,<br>
+ 'OUTsurance Oval, Bloemfontein': 29,<br>
+ 'Punjab Cricket Association Stadium, Mohali': 30,<br>
+ 'Raipur International Cricket Stadium, Raipur': 31,<br>
+ 'Rajiv Gandhi International Cricket Stadium, Hyderabad': 32,<br>
+ 'Sardar Patel Stadium, Ahmedabad': 33,<br>
+ 'Saurashtra Cricket Association Stadium, Rajkot': 34,<br>
+ 'Sawai Mansingh Stadium, Jaipur': 35,<br>
+ 'Shaheed Veer Narayan Singh International Stadium, Raipur': 36,<br>
+ 'Sharjah Cricket Stadium': 37,<br>
+ 'Sharjah Cricket Stadium, Sharjah': 38,<br>
+ 'Sheikh Zayed Cricket Stadium, Abu Dhabi': 39,<br>
+ 'Sheikh Zayed Stadium, Abu Dhabi': 40,<br>
+ "St George's Park, Port Elizabeth": 41,<br>
+ 'Subrata Roy Sahara Stadium, Pune': 42,<br>
+ 'SuperSport Park, Centurion': 43,<br>
+ 'Vidarbha Cricket Association Stadium, Nagpur': 44,<br>
+ 'Wankhede Stadium, Mumbai': 45<br>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>

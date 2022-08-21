@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        .scace {
+            margin: 15px;
+        }
+    </style>
+    <body>
+        <div align=justify>
+        <a class= "scace" href="/tosdic">predict toss decision</a> 
+        <a class= "scace" href="/winner">predict winner</a> 
+        <a class= "scace" href="/run">predict inning runs</a> 
+        <a class= "scace" href="/tosswiner">predict toss winner </a> 
+        </div>
+        <h1>Winner will be {{ans}}</h1>
+        <form action="winner" method="post">
+            {% csrf_token %}
+            {{ a }}
+            <input type="submit" value="Submit">
+        </form>
+        {% comment %} <h1>toss Winner will be {{ans}}</h1> {% endcomment %}
+        'ACA-VDCA Stadium': 0,<br>
+        'Barabati Stadium': 1,<br>
+ 'Brabourne Stadium': 2,<br>
+ 'Buffalo Park': 3,<br>
+ 'De Beers Diamond Oval': 4,<br>
+ 'Dr DY Patil Sports Academy': 5,<br>
+ 'Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium': 6,<br>
+ 'Eden Gardens': 7,<br>
+ 'Feroz Shah Kotla': 8,<br>
+ 'Feroz Shah Kotla Ground': 9,<br>
+ 'Green Park': 10,<br>
+ 'Himachal Pradesh Cricket Association Stadium': 11,<br>
+ 'Holkar Cricket Stadium': 12,<br>
+ 'IS Bindra Stadium': 13,<br>
+ 'JSCA International Stadium Complex': 14,<br>
+ 'Kingsmead': 15,<br>
+ 'M Chinnaswamy Stadium': 16,<br>
+ 'M. A. Chidambaram Stadium': 17,<br>
+ 'M. Chinnaswamy Stadium': 18,<br>
+ 'MA Chidambaram Stadium, Chepauk': 19,<br>
+ 'Maharashtra Cricket Association Stadium': 20,<br>
+ 'Nehru Stadium': 21,<br>
+ 'New Wanderers Stadium': 22,<br>
+ 'Newlands': 23,<br>
+ 'OUTsurance Oval': 24,<br>
+ 'Punjab Cricket Association IS Bindra Stadium, Mohali': 25,<br>
+ 'Punjab Cricket Association Stadium, Mohali': 26,<br>
+ 'Rajiv Gandhi International Stadium, Uppal': 27,<br>
+ 'Rajiv Gandhi Intl. Cricket Stadium': 28,<br>
+ 'Sardar Patel Stadium, Motera': 29,<br>
+ 'Saurashtra Cricket Association Stadium': 30,<br>
+ 'Sawai Mansingh Stadium': 31,<br>
+ 'Shaheed Veer Narayan Singh International Stadium': 32,<br>
+ 'Sharjah Cricket Stadium': 33,<br>
+ 'Sheikh Zayed Stadium': 34,<br>
+ "St George's Park": 35,<br>
+ 'Subrata Roy Sahara Stadium': 36,<br>
+ 'SuperSport Park': 37,<br>
+ 'Vidarbha Cricket Association Stadium, Jamtha': 38,<br>
+ 'Wankhede Stadium': 39<br>
+        <script src="" async defer></script>
+    </body>
+</html>
